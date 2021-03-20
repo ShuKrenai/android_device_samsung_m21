@@ -27,7 +27,8 @@ TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 BOARD_BOOT_HEADER_NAME       := SRPSL10A001KU
-TARGET_KERNEL_CONFIG := exynos9610-m31nsxx_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/m31
+TARGET_KERNEL_CONFIG := bluefly_m31_defconfig
 BOARD_DTBO_CFG := $(DEVICE_PATH)/kernel/m31.cfg
 
 # Partitions
