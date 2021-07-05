@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m21.mk
+    $(LOCAL_DIR)/bootleg_m21.mk
 
 COMMON_LUNCH_CHOICES := \
-     lineage_m21-userdebug \
-     lineage_m21-eng \
-     lineage_m21-user
+     bootleg_m21-userdebug \
+     bootleg_m21-eng \
+     bootleg_m21-user
