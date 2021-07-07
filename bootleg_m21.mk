@@ -23,7 +23,7 @@ $(call inherit-product, device/samsung/m21/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/bootlegger/config/common.mk)
+$(call inherit-product, vendor/bootleggers/config/common.mk)
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
