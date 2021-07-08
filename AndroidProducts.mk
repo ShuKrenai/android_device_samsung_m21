@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_m21.mk
+    $(LOCAL_DIR)/du_m21.mk
 
 COMMON_LUNCH_CHOICES := \
      du_m21-userdebug \
